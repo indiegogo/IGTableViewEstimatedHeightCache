@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_IGTableViewEstimatedHeightCache_IGTableViewEstimatedHeightCache : NSObject
+@end
+@implementation PodsDummy_Pods_IGTableViewEstimatedHeightCache_IGTableViewEstimatedHeightCache
+@end
