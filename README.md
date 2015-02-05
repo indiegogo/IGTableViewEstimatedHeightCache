@@ -4,7 +4,7 @@ Simple solution for adding estimated height cache to table view controller
 
 Based on StackOverflow.com answer (http://stackoverflow.com/a/26371697/40444) by Kai Burghardt (http://stackoverflow.com/users/1978096/kai-burghardt)
 
-[![CI Status](http://img.shields.io/travis/janj/IGTableViewEstimatedHeightCache.svg?style=flat)](https://travis-ci.org/janj/IGTableViewEstimatedHeightCache)
+[![CI Status](http://img.shields.io/travis/IndieGoGo/IGTableViewEstimatedHeightCache.svg?style=flat)](https://travis-ci.org/IndieGoGo/IGTableViewEstimatedHeightCache)
 [![Version](https://img.shields.io/cocoapods/v/IGTableViewEstimatedHeightCache.svg?style=flat)](http://cocoadocs.org/docsets/IGTableViewEstimatedHeightCache)
 [![License](https://img.shields.io/cocoapods/l/IGTableViewEstimatedHeightCache.svg?style=flat)](http://cocoadocs.org/docsets/IGTableViewEstimatedHeightCache)
 [![Platform](https://img.shields.io/cocoapods/p/IGTableViewEstimatedHeightCache.svg?style=flat)](http://cocoadocs.org/docsets/IGTableViewEstimatedHeightCache)
