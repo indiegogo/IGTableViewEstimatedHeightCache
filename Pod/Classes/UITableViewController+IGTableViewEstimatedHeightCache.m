@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Indiegogo. All rights reserved.
 //
 
-#import "UIViewController+IGTableViewEstimatedHeightCache.h"
+#import "UITableViewController+IGTableViewEstimatedHeightCache.h"
 #import <objc/runtime.h>
 
-@implementation UIViewController (IGTableViewEstimatedHeightCache)
+@implementation UITableViewController (IGTableViewEstimatedHeightCache)
 
 #pragma mark - Properties
 

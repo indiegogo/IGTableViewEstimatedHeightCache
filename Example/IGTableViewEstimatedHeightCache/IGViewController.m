@@ -7,7 +7,7 @@
 //
 
 #import "IGViewController.h"
-#import <UIViewController+IGTableViewEstimatedHeightCache.h>
+#import <UITableViewController+IGTableViewEstimatedHeightCache.h>
 #import "DynamicCell.h"
 
 @interface IGViewController ()
