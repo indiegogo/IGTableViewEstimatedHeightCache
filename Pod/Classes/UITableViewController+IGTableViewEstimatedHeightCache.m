@@ -57,7 +57,7 @@
 #pragma mark - Helpers
 
 - (NSString *)cacheKeyForIndexPath:(NSIndexPath *)indexPath {
-    return [NSString stringWithFormat:@"%ld-%ld", indexPath.section, indexPath.row];
+    return [NSString stringWithFormat:@"%ld-%ld", (long) indexPath.section, (long) indexPath.row];
 }
 
 @end
