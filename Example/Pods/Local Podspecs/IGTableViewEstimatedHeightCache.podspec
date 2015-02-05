@@ -1,38 +1,22 @@
-#
-# Be sure to run `pod lib lint IGTableViewEstimatedHeightCache.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "IGTableViewEstimatedHeightCache"
   s.version          = "0.1.0"
-  s.summary          = "A short description of IGTableViewEstimatedHeightCache."
+  s.summary          = "Simple solution for adding estimated height cache to table view controller"
   s.description      = <<-DESC
-                       An optional longer description of IGTableViewEstimatedHeightCache
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Simple solution for adding estimated height cache to table view controller
+					   
+					   Based on StackOverflow.com answer (http://stackoverflow.com/a/26371697/40444) by Kai Burghardt (http://stackoverflow.com/users/1978096/kai-burghardt)
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/IGTableViewEstimatedHeightCache"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/IndieGoGo/IGTableViewEstimatedHeightCache"
   s.license          = 'MIT'
-  s.author           = { "janj" => "jan.jirout@indiegogo.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/IGTableViewEstimatedHeightCache.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'IGTableViewEstimatedHeightCache' => ['Pod/Assets/*.png']
+  s.author           = { 
+  			'Indiegogo' => 'tech+gogopair@indiegogo.com',
+			"janj" => "jan.jirout@indiegogo.com",
+			"glentregoning" => "glen.tregoning@indiegogo.com"
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source           = { :git => "https://github.com/IndieGoGo/IGTableViewEstimatedHeightCache.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/Indiegogo'
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+  s.source_files = 'Pod/Classes/**/*'
 end

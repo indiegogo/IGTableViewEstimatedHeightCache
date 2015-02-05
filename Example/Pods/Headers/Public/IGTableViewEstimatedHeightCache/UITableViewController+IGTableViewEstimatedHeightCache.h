@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/UITableViewController+IGTableViewEstimatedHeightCache.h
