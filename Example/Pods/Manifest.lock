@@ -1,0 +1,17 @@
+PODS:
+  - IGTableViewEstimatedHeightCache (0.1.0)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - IGTableViewEstimatedHeightCache (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  IGTableViewEstimatedHeightCache:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IGTableViewEstimatedHeightCache: d921d5bf89ea66227e2ecdf853c5fb09992151e4
+  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
+
+COCOAPODS: 0.35.0

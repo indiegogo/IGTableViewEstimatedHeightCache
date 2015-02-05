@@ -1,13 +1,15 @@
 //
-//  IGViewController.h
+//  ViewController.h
 //  IGTableViewEstimatedHeightCache
 //
-//  Created by janj on 02/04/2015.
-//  Copyright (c) 2014 janj. All rights reserved.
+//  Created by Jan Jirout on 1/30/15.
+//  Copyright (c) 2015 Indiegogo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface IGViewController : UIViewController
+@interface IGViewController : UITableViewController
+
 
 @end
+
