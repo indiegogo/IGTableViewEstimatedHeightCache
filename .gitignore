@@ -17,4 +17,5 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
-build/
+Gemfile
+Gemfile.lock

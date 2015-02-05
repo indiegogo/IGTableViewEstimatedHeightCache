@@ -7,7 +7,6 @@
 //
 
 #import "IGViewController.h"
-#import <UITableViewController+IGTableViewEstimatedHeightCache.h>
 #import "DynamicCell.h"
 
 @interface IGViewController ()
@@ -32,7 +31,7 @@
 
 - (void)loadHeadlines {
     self.headlines = @[
-                       @"Teachers Use iPad to Enhance Learning in Special Education Across the Globe",
+                       @"Tap on a cell and back to see there is no jumpiness added",
                        @"2014 NHL Playoffs: Teams Turning to High-Tech Analysis During Games",
                        @"Apple Updates MacBook Air",
                        @"Apple Reports Second-Quarter Results",
@@ -117,10 +116,6 @@
     [self performSegueWithIdentifier:@"subview" sender:self];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.headlines.count;
 }
@@ -128,26 +123,7 @@
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     DynamicCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.headlineLabel.text = _headlines[indexPath.row];
-    
-    // put estimated cell height in cache if needed
-    if (![self ehc_isEstimatedRowHeightInCache:indexPath]) {
-        CGSize cellSize = [cell systemLayoutSizeFittingSize:CGSizeMake(self.view.frame.size.width, 0) withHorizontalFittingPriority:1000.0 verticalFittingPriority:50.0];
-        [self ehc_setEstimatedCellHeightToCache:indexPath height:cellSize.height];
-    }
-    
     return cell;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-        return UITableViewAutomaticDimension;
-}
-
--(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [self ehc_getEstimatedCellHeightFromCache:indexPath defaultHeight:41.5];
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    //NSLog(@"Content Height: %f", self.tableView.contentSize.height);
 }
 
 @end

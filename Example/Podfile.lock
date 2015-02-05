@@ -1,9 +1,9 @@
 PODS:
-  - IGTableViewEstimatedHeightCache (0.2.0)
+  - IGTableViewEstimatedHeightCache/SimpleMagic (0.3.0)
   - Kiwi (2.3.1)
 
 DEPENDENCIES:
-  - IGTableViewEstimatedHeightCache (from `../`)
+  - IGTableViewEstimatedHeightCache/SimpleMagic (from `../`)
   - Kiwi
 
 EXTERNAL SOURCES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  IGTableViewEstimatedHeightCache: 3f6e93e6d78f6f11eb5c1d09d9097a6d4e2d96b8
+  IGTableViewEstimatedHeightCache: 25ba88ae8be47eaa948cbd92e73f9425de695a4a
   Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
 
 COCOAPODS: 0.35.0

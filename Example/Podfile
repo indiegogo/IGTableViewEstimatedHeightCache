@@ -1,11 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'IGTableViewEstimatedHeightCache', :exclusive => true do
-  pod "IGTableViewEstimatedHeightCache", :path => "../"
-end
+pod 'IGTableViewEstimatedHeightCache/SimpleMagic', :path => "../"
 
+#target 'IGTableViewEstimatedHeightCache', :exclusive => true do
+#end
+#
 target 'Tests', :exclusive => true do
-  pod "IGTableViewEstimatedHeightCache", :path => "../"
-
+#    pod 'IGTableViewEstimatedHeightCache', :path => "../"
+#
   pod 'Kiwi'
 end

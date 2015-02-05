@@ -6,12 +6,6 @@
 // project.
 
 
-// IGTableViewEstimatedHeightCache
-#define COCOAPODS_POD_AVAILABLE_IGTableViewEstimatedHeightCache
-#define COCOAPODS_VERSION_MAJOR_IGTableViewEstimatedHeightCache 0
-#define COCOAPODS_VERSION_MINOR_IGTableViewEstimatedHeightCache 2
-#define COCOAPODS_VERSION_PATCH_IGTableViewEstimatedHeightCache 0
-
 // Kiwi
 #define COCOAPODS_POD_AVAILABLE_Kiwi
 #define COCOAPODS_VERSION_MAJOR_Kiwi 2
