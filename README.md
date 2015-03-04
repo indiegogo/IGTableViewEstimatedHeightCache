@@ -24,8 +24,10 @@ it, simply add the following line to your Podfile:
 
 ## Author
 Indiegogo, tech+gogopair at indiegogo.com
-@janj, jan.jirout at indiegogo.com
-@glentregoning, glen.tregoning at indiegogo.com
+
+janj, jan.jirout at indiegogo.com
+
+glentregoning, glen.tregoning at indiegogo.com
 
 ## License
 
