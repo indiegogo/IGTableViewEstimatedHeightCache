@@ -23,9 +23,9 @@ it, simply add the following line to your Podfile:
     pod "IGTableViewEstimatedHeightCache"
 
 ## Author
-Indiegogo, tech+gogopair@indiegogo.com
-janj, jan.jirout@indiegogo.com
-glentregoning, glen.tregoning@indiegogo.com
+Indiegogo, tech+gogopair at indiegogo.com
+@janj, jan.jirout at indiegogo.com
+@glentregoning, glen.tregoning at indiegogo.com
 
 ## License
 
